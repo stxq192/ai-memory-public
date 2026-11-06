@@ -23,7 +23,8 @@ confidence: high
 | Windows 11 + Git Bash | 日常命令 | 中文一律走 UTF-8；bash 命令里**禁止出现反引号** |
 | Python 3.13.12（托管） | 数据处理、脚本 | `<本机>\.workbuddy\binaries\python\versions\3.13.12\python.exe` |
 | Node 22 / 24（托管） | 前端校验、工具链 | `<本机>\.workbuddy\binaries\node\versions\` |
-| Obsidian vault | 长期记忆唯一事实源 | `<本机>\<记忆库>`；全部 md 必须 LF（CR=0） |
+| Obsidian vault | **原始全景层**（625 个 md，人看、每日复盘写） | `<本机>\<记忆库>`；全部 md 必须 LF（CR=0） |
+| 本记忆库 `core/` | **结论层 · AI 只读这里**（6 个模块，从 vault 提炼） | 不直接读 vault；vault 与本库冲突时以本库为准 |
 | 通达信 MCP | 行情、龙虎榜、涨停事件、AI 事件 | `ai_event` / `reveal` 只走通达信 |
 | GitHub | 代码与档案托管 | 本仓库 |
 
